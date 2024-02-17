@@ -11,7 +11,8 @@ export default function Card() {
                     </div>
                     <div className="w-full flex justify-between">
                         <Button>Mas info</Button>
-                        <Button>Ver</Button>
+                        <Button>
+                            <a href="https://c15-13-n-node-react.vercel.app/">Ver</a></Button>
                     </div>
                 </div>
             </div>
