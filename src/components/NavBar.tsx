@@ -8,7 +8,7 @@ const navigation = [
     { name: 'Inicio', href: '#' },
     { name: 'Proyectos', href: '#proyectos' },
     { name: 'Sobre mi', href: '#about' },
-    { name: 'Contacto', href: '#contact' },
+    /* { name: 'Contacto', href: '#contact' }, */
 ]
 
 export default function NavBar() {
