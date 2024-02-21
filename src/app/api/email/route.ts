@@ -1,4 +1,4 @@
-import { transporter } from "@/config/nodemailer";
+//import { transporter } from "@/config/nodemailer";
 import { NextResponse } from "next/server";
 
 
@@ -8,13 +8,13 @@ export async function POST(req: Request): Promise<NextResponse> {
 
     try {
 
-        await transporter.sendMail({
-            to: `rblazquez111@gmail.com`,
-            subject: `${asunto}`,
-            text: `${email}`,
-            html: `<p>${message},</p>`
-        })
-        return NextResponse.json({ message: 'Mail enviado con exito' });
+        /*  await transporter.sendMail({
+             to: `rblazquez111@gmail.com`,
+             subject: `${asunto}`,
+             text: `${email}`,
+             html: `<p>${message},</p>`
+         }) */
+        return NextResponse.json({ message: 'Mail enviado con éxito' });
     } catch (error) {
         return NextResponse.json(error);
     }
