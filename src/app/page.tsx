@@ -3,6 +3,7 @@ import GitHubButton from '@/components/GitHubButton'
 import LinkedInButton from '@/components/LinkedInButton'
 import About from '@/components/about/About'
 import Contact from '@/components/contact/Contact'
+import Information from '@/components/information/Information'
 import Image from 'next/image'
 
 export default function Home() {
@@ -35,7 +36,7 @@ export default function Home() {
         <About />
       </section>
       <section id='contact' className='min-h-screen flex flex-col items-center py-20 '>
-        <Contact />
+        <Information />
       </section>
 
     </main>
