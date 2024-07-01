@@ -1,6 +1,6 @@
 //import { transporter } from "@/config/nodemailer";
 import { NextResponse } from "next/server";
-import transporter from 'nodemailer';
+//import transporter from 'nodemailer';
 
 export async function POST(req: Request): Promise<NextResponse> {
 
